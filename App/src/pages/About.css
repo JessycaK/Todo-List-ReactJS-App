@@ -1,0 +1,42 @@
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 100px;
+}
+
+.left {
+  left: 0;
+  background-color: #0f62fe;
+}
+
+.right {
+  right: 0;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: centers;
+}
+
+.name_title {
+  font-size: 48px;
+  color: black;
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+.brief_description {
+  text-align: left;
+}
+
+.profile_image {
+  width: 500px;
+  height: auto;
+}
